@@ -13,7 +13,7 @@ function ToDoItem(props){
             <i class="fa-solid fa-trash" onClick={async (e)=>{
                 const token = localStorage.getItem("token");
                 if (token){
-                    const response = await fetch("http://localhost:3001/delete-todo-item", {
+                    const response = await fetch("https://react-todo-list-agyx.onrender.com/delete-todo-item", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
