@@ -25,7 +25,7 @@ function Register(){
     return(
         <form className="register" onSubmit={async (e)=>{
             e.preventDefault();
-            const response = await fetch("http://localhost:3001/create-new-user", {
+            const response = await fetch("https://todo-list-api-ey6p.onrender.com/add-todo-item", {
                 method: "POST",
                 headers:{
                     "Content-Type": "application/json"
