@@ -124,6 +124,24 @@ body{
     cursor: pointer;
 }
 
+@media (max-width: 1100px){
+    .home{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 600px){
+    .home{
+        width: 25rem;
+    }
+}
+
+@media (max-width: 500px){
+    .home{
+        width: 90%;
+    }
+}
+
 
 /*FORM REGISTER*/
 
@@ -155,4 +173,17 @@ body{
 .register button{
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
+}
+
+@media (max-width: 650px){
+    .register{
+        width: 25rem;
+    }
+}
+
+
+@media (max-width: 500px){
+    .register{
+        width: 90%;
+    }
 }
